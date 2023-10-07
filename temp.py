@@ -33,6 +33,6 @@ for idx, image_file in enumerate(image_files):
 selected_vectors = np.array(selected_vectors)
 
 print(selected_vectors.shape)
-output_npy_file = 'D_face_w_sorted.npy'
+output_npy_file = 'D_face_man_sorted_randered_fixed.npy'
 np.save(output_npy_file, selected_vectors)
 
